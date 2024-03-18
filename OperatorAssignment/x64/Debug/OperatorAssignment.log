@@ -1,0 +1,9 @@
+﻿  Function.cpp
+C:\Users\Alex Storey\source\repos\OperatorAssignment\Function.cpp(27,11): warning C4101: 'tempGPA': unreferenced local variable
+C:\Users\Alex Storey\source\repos\OperatorAssignment\Function.cpp(26,9): warning C4101: 'tempAge': unreferenced local variable
+  main.cpp
+  Generating Code...
+Function.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Staff::print(void)" (?print@Staff@@UEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Staff::print(void)" (?print@Staff@@UEAAXXZ)
+Function.obj : error LNK2001: unresolved external symbol "public: static int Staff::totalStaff" (?totalStaff@Staff@@2HA)
+C:\Users\Alex Storey\source\repos\OperatorAssignment\x64\Debug\OperatorAssignment.exe : fatal error LNK1120: 2 unresolved externals
